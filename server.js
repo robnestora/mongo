@@ -14,7 +14,7 @@ var db = require("./models");
 
 var PORT = process.env.PORT || 3000;
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1/mongo";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://robnestora:Dingleberry1@ds137283.mlab.com:37283/mongoscraper";
 
 // Initialize Express
 var app = express();
