@@ -14,7 +14,7 @@ var db = require("./models");
 
 var PORT = process.env.PORT || 3000;
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1/mongoNewsScraper";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1/mongo";
 
 // Initialize Express
 var app = express();
